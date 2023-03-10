@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.display-6 {
+    text-align: center;
+    color: Black;
+}
+
+#s_btn {
+    text-align: center;
+    background-color: orangered;
+    /* color:black; */
+    border: none;
+}
+
+#s_btn:hover {
+    background-color: red;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(230, 223, 222, 0), rgba(0, 0, 0, 1)), url(images/2.1.jpg);
+    background-repeat: no-repeat;
+    background-attachment:relative;
+    background-size: contain;
+    position: absolute; 
+}
+
+.logo {
+    object-fit: cover;
+    width: 115%;
+    visibility: visible;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-box {
+    margin-top: 80%;
+    /* width: 100%; */
+    margin-left: 150px;
+    position:fixed;
+    margin-top: auto;
+    background-color: transparent;
+    padding: 5%;
+    
+}
+
+.form-check-label {
+    color: white;
+}
+
+.form-label {
+    color: white;
+}
+
+.error {
+    color: #FF0000;
+}
+
+@media only screen and (min-width: 470px) {
+    .logo {
+        object-fit: cover;
+        width: 15%;
+        visibility: visible;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgba(230, 223, 222, 0), rgba(0, 0, 0, 1)), url(images/2.1.jpg);
+        background-position: center;
+        background-size: cover;
+        position:sticky;
+    }
+    .form-box {
+        width: 80%;
+        margin-left: 150px;
+        position: relative;
+        margin: auto;
+        background-color: transparent;
+        padding: 5px;
+        overflow: hidden;
+    }
+}
+
+.error {
+    color: red;
+  }
+  .sucess
+  {
+    visibility: hidden;
+  }
